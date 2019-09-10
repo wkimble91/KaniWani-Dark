@@ -1,0 +1,109 @@
+/* ==UserStyle==
+@name           KaniWani Dark
+@namespace      github.com/AfroThundr3007730
+@version        1.0.0
+@description    Dark theme for KaniWani
+@author         AfroThundr
+@homepageURL    https://gist.github.com/AfroThundr3007730/518456de45e95bef4b0aac5f023f9891
+@updateURL      https://gist.githubusercontent.com/AfroThundr3007730/518456de45e95bef4b0aac5f023f9891/raw/master/kaniwani-dark.user.css
+@license        CC-BY-SA-4.0
+==/UserStyle== */
+
+@-moz-document domain("kaniwani.com") {
+  body {
+    background-color: #111;
+    color: #ccc;
+  }
+  button, input, select, textarea {
+    background-color: #111;
+    border-color: #555;
+    color: #ccc;
+  }
+  .ihuegB > input {
+    background-color: #111;
+  }
+  .jMdDjV {
+    border-color: #555;
+  }
+  .eoGMIh {
+    background: #222;
+  }
+  .hqSSFE {
+    background-color: #111;
+  }
+  .bhcxot {
+    background-color: #222;
+  }
+  .sUEkW {
+    filter: invert(100%) hue-rotate(180deg);
+  }
+  .cTRZKg {
+    background-color: #222;
+  }
+  .cXDhnt {
+    background-color: #222;
+  }
+  .knkzyA > li {
+    border-color: #555;
+  }
+  .kqQGEc {
+    background-color: #333;
+  }
+  .hzoTof {
+    background-color: rgba(0,0,0,.1);
+  }
+  .hZnLNP {
+    background-color: #222;
+  }
+  .fTVupX {
+    background-color: #404;
+    background-image: linear-gradient(#404, #303);
+  }
+  .fTVupX .st7o6u-1 {
+    text-shadow: none;
+  }
+  .cGyjlT {
+    background-color: #456;
+    background-image: linear-gradient(#456, #345);
+  }
+  .cGyjlT .st7o6u-1 {
+    text-shadow: none;
+  }
+  .fjuPmy {
+    background-color: #244;
+    color: #777;
+  }
+  .euTLPg {
+    background-color: #434;
+    color: #777;
+  }
+  .bFODhT {
+    background-color: #423;
+    color: #777;
+  }
+  .bDnISH {
+    background-color: #424;
+    color: #777;
+  }
+  .cVOIHq {
+    background-color: #442;
+    color: #777;
+  }
+  .hZnLNP .mae4y7-0 {
+    background-color: #473;
+  }
+  .iTpaYB {
+    background-color: #222;
+    color: #777;
+  }
+  .fuoHfy {
+    background-color: #333;
+  }
+  .fuoHfy:not(:disabled):hover, .fuoHfy:focus {
+    background-color: #444;
+    color: #777;
+  }
+  .bhcxot {
+    color: #777;
+  }
+}
