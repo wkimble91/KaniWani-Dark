@@ -1,12 +1,13 @@
 /* ==UserStyle==
-@name           KaniWani Dark
-@namespace      github.com/AfroThundr3007730
-@version        1.0.1
-@description    Dark theme for KaniWani
-@author         AfroThundr
-@homepageURL    https://gist.github.com/AfroThundr3007730/518456de45e95bef4b0aac5f023f9891
-@updateURL      https://gist.githubusercontent.com/AfroThundr3007730/518456de45e95bef4b0aac5f023f9891/raw/master/kaniwani-dark.user.css
-@license        CC-BY-SA-4.0
+@name         KaniWani Dark
+@version      1.0.2
+@description  Dark theme for KaniWani
+@namespace    AfroThundr3007730
+@author       AfroThundr
+@homepageURL  https://github.com/AfroThundr3007730/KaniWani-Dark
+@supportURL   https://github.com/AfroThundr3007730/KaniWani-Dark/issues
+@updateURL    https://raw.githubusercontent.com/AfroThundr3007730/KaniWani-Dark/master/kaniwani-dark.user.css
+@license      GPL-3.0
 ==/UserStyle== */
 @-moz-document domain("kaniwani.com") {
   :root {
@@ -38,14 +39,21 @@
     border-color: var(--gray-5);
     color: var(--gray-c);
   }
-  .eoGMIh {
-    background: var(--gray-2);
-  }
-  .sUEkW {
-    filter: invert(100%) hue-rotate(180deg);
-  }
   .hzoTof {
     background-color: rgba(0, 0, 0, .1);
+  }
+  .ihuegB > input, .eStPfI, .hqSSFE, .fcFRGf {
+    background-color: var(--gray-1);
+  }
+  .cTRZKg, .cXDhnt, .hZnLNP, .gitBaj, .eJDrkt {
+    background-color: var(--gray-2);
+  }
+  .kqQGEc, .fuoHfy, .cCmHrU {
+    background-color: var(--gray-3);
+  }
+  .eoGMIh {
+    background-color: var(--gray-2);
+    background-image: linear-gradient(var(--gray-3), var(--gray-2));
   }
   .fTVupX {
     background-color: var(--review-2);
@@ -78,6 +86,9 @@
   .hZnLNP .mae4y7-0 {
     background-color: var(--tag-6);
   }
+  svg:not([fill]) {
+    fill: var(--gray-c);
+  }
   rect[fill="#fff"] {
     fill: var(--slide);
   }
@@ -85,23 +96,23 @@
     background-color: var(--gray-4);
     color: var(--gray-7);
   }
-  .ihuegB > input, .eStPfI, .hqSSFE {
-    background-color: var(--gray-1);
-  }
   .jMdDjV, .knkzyA > li {
     border-color: var(--gray-5);
+  }
+  .iCjPNG, .dVreRX, .ebbVcZ {
+    border-bottom-color: var(--gray-2);
   }
   .bhcxot, .iTpaYB {
     background-color: var(--gray-2);
     color: var(--gray-7);
   }
-  .cTRZKg, .cXDhnt, .hZnLNP {
-    background-color: var(--gray-2);
-  }
-  .kqQGEc, .fuoHfy {
-    background-color: var(--gray-3);
-  }
   .fTVupX .st7o6u-1, .cGyjlT .st7o6u-1 {
     text-shadow: none;
+  }
+  .sUEkW {
+    filter: invert(100%) hue-rotate(180deg);
+  }
+  .emyZim {
+    filter: brightness(50%);
   }
 }
