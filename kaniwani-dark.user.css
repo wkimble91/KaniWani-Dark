@@ -1,109 +1,107 @@
 /* ==UserStyle==
 @name           KaniWani Dark
 @namespace      github.com/AfroThundr3007730
-@version        1.0.0
+@version        1.0.1
 @description    Dark theme for KaniWani
 @author         AfroThundr
 @homepageURL    https://gist.github.com/AfroThundr3007730/518456de45e95bef4b0aac5f023f9891
 @updateURL      https://gist.githubusercontent.com/AfroThundr3007730/518456de45e95bef4b0aac5f023f9891/raw/master/kaniwani-dark.user.css
 @license        CC-BY-SA-4.0
 ==/UserStyle== */
-
 @-moz-document domain("kaniwani.com") {
+  :root {
+    --gray-1: #111;
+    --gray-2: #222;
+    --gray-3: #333;
+    --gray-4: #444;
+    --gray-5: #555;
+    --gray-7: #777;
+    --gray-c: #ccc;
+    --lesson-1: #345;
+    --lesson-2: #456;
+    --review-1: #303;
+    --review-2: #404;
+    --tag-1: #244;
+    --tag-2: #434;
+    --tag-3: #423;
+    --tag-4: #424;
+    --tag-5: #442;
+    --tag-6: #473;
+    --slide: #224;
+  }
   body {
-    background-color: #111;
-    color: #ccc;
+    background-color: var(--gray-1);
+    color: var(--gray-c);
   }
   button, input, select, textarea {
-    background-color: #111;
-    border-color: #555;
-    color: #ccc;
-  }
-  .ihuegB > input {
-    background-color: #111;
-  }
-  .jMdDjV {
-    border-color: #555;
+    background-color: var(--gray-1);
+    border-color: var(--gray-5);
+    color: var(--gray-c);
   }
   .eoGMIh {
-    background: #222;
-  }
-  .hqSSFE {
-    background-color: #111;
-  }
-  .bhcxot {
-    background-color: #222;
+    background: var(--gray-2);
   }
   .sUEkW {
     filter: invert(100%) hue-rotate(180deg);
   }
-  .cTRZKg {
-    background-color: #222;
-  }
-  .cXDhnt {
-    background-color: #222;
-  }
-  .knkzyA > li {
-    border-color: #555;
-  }
-  .kqQGEc {
-    background-color: #333;
-  }
   .hzoTof {
-    background-color: rgba(0,0,0,.1);
-  }
-  .hZnLNP {
-    background-color: #222;
+    background-color: rgba(0, 0, 0, .1);
   }
   .fTVupX {
-    background-color: #404;
-    background-image: linear-gradient(#404, #303);
-  }
-  .fTVupX .st7o6u-1 {
-    text-shadow: none;
+    background-color: var(--review-2);
+    background-image: linear-gradient(var(--review-2), var(--review-1));
   }
   .cGyjlT {
-    background-color: #456;
-    background-image: linear-gradient(#456, #345);
-  }
-  .cGyjlT .st7o6u-1 {
-    text-shadow: none;
+    background-color: var(--lesson-2);
+    background-image: linear-gradient(var(--lesson-2), var(--lesson-1));
   }
   .fjuPmy {
-    background-color: #244;
-    color: #777;
+    background-color: var(--tag-1);
+    color: var(--gray-7);
   }
   .euTLPg {
-    background-color: #434;
-    color: #777;
+    background-color: var(--tag-2);
+    color: var(--gray-7);
   }
   .bFODhT {
-    background-color: #423;
-    color: #777;
+    background-color: var(--tag-3);
+    color: var(--gray-7);
   }
   .bDnISH {
-    background-color: #424;
-    color: #777;
+    background-color: var(--tag-4);
+    color: var(--gray-7);
   }
   .cVOIHq {
-    background-color: #442;
-    color: #777;
+    background-color: var(--tag-5);
+    color: var(--gray-7);
   }
   .hZnLNP .mae4y7-0 {
-    background-color: #473;
+    background-color: var(--tag-6);
   }
-  .iTpaYB {
-    background-color: #222;
-    color: #777;
-  }
-  .fuoHfy {
-    background-color: #333;
+  rect[fill="#fff"] {
+    fill: var(--slide);
   }
   .fuoHfy:not(:disabled):hover, .fuoHfy:focus {
-    background-color: #444;
-    color: #777;
+    background-color: var(--gray-4);
+    color: var(--gray-7);
   }
-  .bhcxot {
-    color: #777;
+  .ihuegB > input, .eStPfI, .hqSSFE {
+    background-color: var(--gray-1);
+  }
+  .jMdDjV, .knkzyA > li {
+    border-color: var(--gray-5);
+  }
+  .bhcxot, .iTpaYB {
+    background-color: var(--gray-2);
+    color: var(--gray-7);
+  }
+  .cTRZKg, .cXDhnt, .hZnLNP {
+    background-color: var(--gray-2);
+  }
+  .kqQGEc, .fuoHfy {
+    background-color: var(--gray-3);
+  }
+  .fTVupX .st7o6u-1, .cGyjlT .st7o6u-1 {
+    text-shadow: none;
   }
 }
