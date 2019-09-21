@@ -115,4 +115,9 @@
   .emyZim {
     filter: brightness(50%);
   }
+  .gtSjwU:not(:disabled):active, .gtSjwU:not(:disabled):focus,
+  .gtSjwU:not(:disabled):hover, .jNrEsz:not(:disabled):active,
+  .jNrEsz:not(:disabled):focus, .jNrEsz:not(:disabled):hover {
+    background-color: var(--gray-2);
+  }
 }
