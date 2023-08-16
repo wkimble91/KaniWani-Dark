@@ -23,6 +23,7 @@
     --review-2: #404;
     --result-correct: #473;
     --result-incorrect: #500;
+    --result-redo: #970;
     --slide: #224;
   }
   body {
@@ -48,7 +49,7 @@
   h2,
   h3 {
     color: var(--gray-e) !important;
-    text-shadow: rgb(10, 10, 10) 0px, 0.1em, 1em !important;
+    text-shadow: rgb(30, 30, 30) 0px 0.1em 1em !important;
   }
   header {
     background: none !important;
@@ -110,6 +111,16 @@
     color: var(--gray-e);
     box-shadow: none;
     border: none;
+  }
+
+  /* Redo banner */
+  .hlGnfO,
+  .hlGnfO .mae4y7-0 {
+    background-color: var(--result-redo) !important;
+    color: var(--gray-e);
+    box-shadow: none;
+    border: none;
+    transition: all 0.1s;
   }
 
   /* Input bar for lessons and reviews */
