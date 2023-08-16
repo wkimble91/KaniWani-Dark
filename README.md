@@ -1,6 +1,6 @@
 # KaniWani Dark
 
-[![Tag](https://img.shields.io/github/tag/wkimble91/KaniWani-Dark.svg?label=tag)](https://github.com/wkimble91/KaniWani-Dark/tags) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/wkimble91/KaniWani-Dark/raw/master/kaniwani-dark.user.css)
+[![Tag](https://img.shields.io/github/tag/wkimble91/KaniWani-Dark.svg?label=tag)](https://github.com/wkimble91/KaniWani-Dark/tags) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/wkimble91/KaniWani-Dark/raw/main/kaniwani-dark.user.css)
 
 Dark theme for KaniWani
 
