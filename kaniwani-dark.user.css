@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         KaniWani Dark
-@version      1.1.0
+@version      1.1.3
 @namespace https://github.com/wkimble91
 @description  Dark theme for KaniWani, forked from AfroThundr's kaniwani-dark
 @author  wkimble91
@@ -30,10 +30,7 @@
     background-color: var(--gray-1);
     color: var(--gray-e);
   }
-  button,
-  input,
-  select,
-  textarea {
+  button, input, select, textarea {
     background-color: var(--gray-1);
     border: 1px solid var(--gray-5);
     border-radius: 2px;
@@ -45,30 +42,25 @@
   rect[fill='#fff'] {
     fill: var(--slide);
   }
-  h1,
-  h2,
-  h3 {
+  h1, h2, h3 {
     color: var(--gray-e) !important;
-    text-shadow: rgb(30, 30, 30) 0px 0.1em 1em !important;
+    text-shadow: rgb(30, 30, 30) 0 .1em 1em !important;
   }
   header {
     background: none !important;
     color: var(--gray-7);
   }
-
   /* Wrap Up, Info and Synonym buttons */
   .sc-1y6l0g0-1 button:not(:disabled):active,
   .sc-1y6l0g0-1 button:not(:disabled):focus,
   .sc-1y6l0g0-1 button:not(:disabled):hover {
     background-color: var(--gray-2);
   }
-
   /* Level indicator on summary page and next lesson counter*/
   h3 span {
     background-color: var(--gray-3) !important;
     color: var(--gray-e) !important;
   }
-
   /* Coming up graph */
   g text {
     fill: var(--gray-e);
@@ -77,64 +69,51 @@
   g line {
     stroke: #444;
   }
-
   /* Lessons vocal level grid */
   .sc-1lsshiu-0 li {
     background-color: var(--gray-2);
   }
-
   /* Review top background */
   .kqmFOZ {
     background-color: var(--review-2);
     background-image: linear-gradient(var(--review-2), var(--review-1));
   }
-
   /* Lesson top background */
   .gMhJzD {
     background-color: var(--lesson-2);
     background-image: linear-gradient(var(--lesson-2), var(--lesson-1));
   }
-
   /* Correct banner */
-  .gNwnWE,
-  .gNwnWE .mae4y7-0 {
+  .gNwnWE, .gNwnWE .mae4y7-0 {
     background-color: var(--result-correct) !important;
     color: var(--gray-e);
     box-shadow: none;
     border: none;
   }
-
   /* Incorrect banner */
-  .igsTQi,
-  .igsTQi .mae4y7-0 {
+  .igsTQi, .igsTQi .mae4y7-0 {
     background-color: var(--result-incorrect) !important;
     color: var(--gray-e);
     box-shadow: none;
     border: none;
   }
-
-  /* Redo banner */
-  .hlGnfO,
-  .hlGnfO .mae4y7-0 {
+  /* Redo and mistype banner */
+  .hlGnfO, .epefoC, .hlGnfO .mae4y7-0, .epefoC .mae4y7-0 {
     background-color: var(--result-redo) !important;
     color: var(--gray-e);
     box-shadow: none;
     border: none;
-    transition: all 0.1s;
+    transition: all .1s;
   }
-
   /* Input bar for lessons and reviews */
-  .fqzIIJ,
-  .qJzgD {
+  .fqzIIJ, .qJzgD {
     background-color: var(--gray-2);
     color: var(--gray-7);
   }
-
   /* Hides bottom background after entering answer */
   .g04mrt-0 {
     background-color: rgba(0, 0, 0, 0);
   }
-
   /* Info card after entering answer */
   .g04mrt-1 {
     background-color: #eee;
@@ -142,12 +121,10 @@
     padding: 30px 50px;
     color: var(--gray-2);
   }
-
   /* Bottom background */
   .jueAji {
     filter: invert(100%) hue-rotate(180deg);
   }
-
   /* Search bar on home page */
   .gEgOaH input {
     background-color: var(--gray-1);
