@@ -30,7 +30,10 @@
     background-color: var(--gray-1);
     color: var(--gray-e);
   }
-  button, input, select, textarea {
+  button,
+  input,
+  select,
+  textarea {
     background-color: var(--gray-1);
     border: 1px solid var(--gray-5);
     border-radius: 2px;
@@ -42,9 +45,11 @@
   rect[fill='#fff'] {
     fill: var(--slide);
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     color: var(--gray-e) !important;
-    text-shadow: rgb(30, 30, 30) 0 .1em 1em !important;
+    text-shadow: rgb(30, 30, 30) 0 0.1em 1em !important;
   }
   header {
     background: none !important;
@@ -84,29 +89,35 @@
     background-image: linear-gradient(var(--lesson-2), var(--lesson-1));
   }
   /* Correct banner */
-  .gNwnWE, .gNwnWE .mae4y7-0 {
+  .gNwnWE,
+  .gNwnWE .mae4y7-0 {
     background-color: var(--result-correct) !important;
     color: var(--gray-e);
     box-shadow: none;
     border: none;
   }
   /* Incorrect banner */
-  .igsTQi, .igsTQi .mae4y7-0 {
+  .igsTQi,
+  .igsTQi .mae4y7-0 {
     background-color: var(--result-incorrect) !important;
     color: var(--gray-e);
     box-shadow: none;
     border: none;
   }
   /* Redo and mistype banner */
-  .hlGnfO, .epefoC, .hlGnfO .mae4y7-0, .epefoC .mae4y7-0 {
+  .hlGnfO,
+  .epefoC,
+  .hlGnfO .mae4y7-0,
+  .epefoC .mae4y7-0 {
     background-color: var(--result-redo) !important;
     color: var(--gray-e);
     box-shadow: none;
     border: none;
-    transition: all .1s;
+    transition: all 0.1s;
   }
   /* Input bar for lessons and reviews */
-  .fqzIIJ, .qJzgD {
+  .fqzIIJ,
+  .qJzgD {
     background-color: var(--gray-2);
     color: var(--gray-7);
   }
