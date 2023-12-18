@@ -134,8 +134,8 @@
   }
   /* Bottom background */
   .jueAji {
+    background-color: rgb(229, 229, 229);
     filter: invert(100%) hue-rotate(180deg);
-    background-color: none;
   }
   /* Search bar on home page */
   .gEgOaH input {
