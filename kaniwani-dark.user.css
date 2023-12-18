@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         KaniWani Dark
-@version      1.1.4
+@version      1.1.5
 @namespace https://github.com/wkimble91
 @description  Dark theme for KaniWani, forked from AfroThundr's kaniwani-dark
 @author  wkimble91
@@ -141,5 +141,9 @@
   .gEgOaH input {
     background-color: var(--gray-1);
     color: var(--gray-7);
+  }
+  /* Wrap Up, Info, and Synonym buttons */
+  .jFejTs {
+    filter: invert(100%) hue-rotate(180deg);
   }
 }
